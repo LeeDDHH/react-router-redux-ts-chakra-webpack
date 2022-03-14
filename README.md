@@ -10,22 +10,22 @@
 
 ## 構成
 
-|                    |        |
-| :----------------: | :----: |
-|      Node.js       | 16.9.0 |
-|        npm         | 7.21.1 |
-|       React        | 17.0.2 |
-|     TypeScript     | 4.5.5  |
-|      webpack       | 5.66.0 |
-|    webpack-cli     | 4.9.1  |
-| webpack-dev-server | 4.7.3  |
-|  react-router-dom  | 6.2.1  |
-|    react-redux     | 7.2.6  |
-|  @reduxjs/toolkit  | 1.7.1  |
-|  @chakra-ui/react  | 1.7.4  |
-|   @emotion/react   | 11.7.1 |
-|  @emotion/styled   | 11.6.0 |
-|   framer-motion    | 5.6.0  |
+|                    |         |
+| :----------------: | :-----: |
+|      Node.js       | 16.14.0 |
+|        npm         |  8.3.1  |
+|       React        | 17.0.2  |
+|     TypeScript     |  4.6.2  |
+|      webpack       | 5.70.0  |
+|    webpack-cli     |  4.9.2  |
+| webpack-dev-server |  4.7.4  |
+|  react-router-dom  |  6.2.2  |
+|    react-redux     |  7.2.6  |
+|  @reduxjs/toolkit  |  1.8.0  |
+|  @chakra-ui/react  |  1.8.6  |
+|   @emotion/react   | 11.8.2  |
+|  @emotion/styled   | 11.8.1  |
+|   framer-motion    |  6.2.8  |
 
 ---
 
