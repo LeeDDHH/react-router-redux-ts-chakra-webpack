@@ -21,14 +21,14 @@
 |     TypeScript     | 4.7.4  |
 |      webpack       | 5.73.0 |
 |    webpack-cli     | 4.10.0 |
-| webpack-dev-server | 4.9.2  |
+| webpack-dev-server | 4.9.3  |
 |  react-router-dom  | 6.3.0  |
 |    react-redux     | 8.0.2  |
 |  @reduxjs/toolkit  | 1.8.2  |
 |  @chakra-ui/react  | 2.2.1  |
 |   @emotion/react   | 11.9.3 |
 |  @emotion/styled   | 11.9.3 |
-|   framer-motion    | 6.3.13 |
+|   framer-motion    | 6.3.16 |
 |        msw         | 0.42.3 |
 
 ---

@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { createRoot } from 'react-dom/client';
+import { MockedRequest } from 'msw';
 import { BrowserRouter as Router } from 'react-router-dom';
 
 import { store } from './reducers/store';
@@ -16,7 +17,18 @@ import PageRoutes from './components/routes';
 if (process.env.NODE_ENV === 'development') {
   console.log('development');
   const { worker } = require('./mocks/browser');
-  worker.start();
+  const unhandleOption = {
+    onUnhandledRequest(req: MockedRequest) {
+      if (req.destination !== 'image') {
+        console.warn(
+          'Found an unhandled %s request to %s',
+          req.method,
+          req.url.href
+        );
+      }
+    },
+  };
+  worker.start(unhandleOption);
 }
 
 const App = () => {
